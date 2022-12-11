@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    gateway:
+      globalcors:
+        routes:
+          - id : r1
+            uri: http://localhost:8081
+            predicates:
+              - Path=/customers/**
+          - id : r2Z
+            uri: http://localhost:8082
+            predicates:
+              - Path=/products/**
+        corsConfigurations:
+          '[/**]':
+            allowedOrigins: "http://localhost:4200"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            allowCredentials: true
