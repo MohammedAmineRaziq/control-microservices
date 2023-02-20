@@ -11,11 +11,13 @@ import javax.ws.rs.QueryParam;
 
 @FeignClient(name = "PRODUCT-SERVICE")
 public interface ProductItemRestClient {
-    @GetMapping("/products")
-    PagedModel<Product> pageProducts(@RequestParam(name = "page") int page,
+    @GetMapping(path = "/products")
+
+    PagedModel<Product> pageProducts();
+    /*PagedModel<Product> pageProducts(@RequestParam(name = "page") int page,
                                      @RequestParam(name = "size") int size);
     /*PagedModel<Product> pageProducts(@QueryParam("page") int page,
                                      @QueryParam("size") int size);*/
-    @GetMapping("/products/{id}")
+    @GetMapping(path = "/products/{id}")
     Product getProductById(@PathVariable Long id);
 }

@@ -88,6 +88,9 @@
                 </configuration>
             </plugin>
         </plugins>
+        <finalName>
+            inventory-server
+        </finalName>
     </build>
 
 </project>
