@@ -50,3 +50,12 @@
 ![App Screenshot](https://github.com/MohammedAmineRaziq/control-microservices/blob/master/ScreenShots/9/1.png)
 ![App Screenshot](https://github.com/MohammedAmineRaziq/control-microservices/blob/master/ScreenShots/9/2.png)
 ![App Screenshot](https://github.com/MohammedAmineRaziq/control-microservices/blob/master/ScreenShots/9/3.png)
+
+# Page Frontend qui permet de présenter en temps réel les courbes
+
+![App Screenshot](https://github.com/MohammedAmineRaziq/control-microservices/blob/master/ScreenShots/10/3.png?raw=true)
+
+
+# Dockerisation des Microservice et utilisation de docker compose 
+
+![App Screenshot](https://github.com/MohammedAmineRaziq/control-microservices/blob/master/ScreenShots/11/1.png?raw=true)
